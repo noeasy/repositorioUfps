@@ -445,11 +445,8 @@ background-color:none !important;
 	color:#aa1916 !important;
 }
 .owl-clients-v1 img {
-    width: 80px !important;
-    height: auto !important; 
-}
-.owl-work-v1 .item a {
-    text-align: justify;
+    width: 80px;
+    height: auto;
 }
 
 
