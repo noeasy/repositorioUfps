@@ -156,7 +156,7 @@ background-color:none !important;
     }
 
     .header-v6 .mega-menu .dropdown:hover {
-        background-color: #aa1916;
+        background-color: #aa1916 !important;
     }
 
     .header-v6 .mega-menu .oferta {
@@ -312,7 +312,7 @@ background-color:none !important;
 /******* resolucion media ****/
 @media (max-width: 991px) {
     .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-        background-color: #aa1916;
+        background-color: #aa1916 !important; 
     }
 
     .style_li_menu_slider {
@@ -450,6 +450,12 @@ background-color:none !important;
 }
 .owl-work-v1 .item a {
     text-align: justify;
+}
+.navbar-collapse ul li ul li a{
+	display:block !important;
+}
+.navbar-collapse ul li ul li:hover a{
+	background-color:#aa1916 !important;
 }
 
 
